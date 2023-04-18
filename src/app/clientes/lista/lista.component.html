@@ -1,0 +1,8 @@
+<p>Este es el componente Hijo</p>
+<h3>Clientes</h3>
+<hr>
+<ul>
+  <li *ngFor="let cliente of listaClientes; let i=index">
+    {{i+1}} - {{cliente.nombre}} -- {{cliente.telefono}}
+  </li>
+</ul>
